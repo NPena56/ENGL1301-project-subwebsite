@@ -6,13 +6,15 @@
     margin: auto;
     padding: 0;
 }
+
 body{
     background: linear-gradient(to right, rgba(49, 3, 66, 0.774)0%,rgba(7, 4, 80, 0.922)100%,rgba(0, 0, 0, 0.585)50%);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    margin:0px;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 li,a,button,.table{
@@ -33,6 +35,10 @@ header{
    background-position: center;
     background-repeat: no-repeat; 
     background-size: cover; 
+}
+
+.td,.tr{
+   padding: large;
 }
 
 .logo{
@@ -98,12 +104,6 @@ div{
     font-size: 18px;
 }
 
-td, th {
-    border: 1px solid #7c7c7c;
-    padding: 20px;
-    
-  } 
-
 th{
     background-color: rgba(106, 104, 134, 0.712);
     color: rgb(156, 156, 156);
@@ -118,9 +118,6 @@ tfoot > tr  {
     color: white;
   }
   
-  tbody > tr:hover {
-    background-color: rgba(46, 165, 95, 0.3);
-  }
 
 .headers{
     background-color: rgba(51, 51, 51, 0.514);
@@ -192,3 +189,65 @@ tfoot > tr  {
         text-align: center;
     }
 
+    .text-typing-box {
+        padding:20px 30px;
+        background-color: #f0f0f0;
+        font-size:35px;
+        font-family:monospace;
+        border-radius:10px;
+        }
+
+        .text-typing-box p {
+            margin:0px;
+            white-space:nowrap;
+            overflow:hidden;
+            animation:typing 4s steps(22,end) forwards,
+                        blink 1s infinite;
+            }
+
+.text-typing {
+padding:20px 30px;
+background:#b4b4b4;
+font-size:35px;
+font-family:monospace;
+border-radius:50px;
+}
+.text-typing p {
+margin:0px;
+white-space:nowrap;
+overflow:hidden;
+animation:typing 4s steps(22,end) forwards,
+			blink 1s infinite;
+}
+@keyframes typing {
+0% { width:0% }
+100% { width:100% }
+}
+@keyframes blink {
+0%,100% {
+	border-right:2px solid transparent;
+}
+50% {
+	border-right:2px solid #222;
+}
+}
+
+.text-box {
+    width: 500px; /* Set the width of the box */
+    padding: 20px; /* Add padding to the content inside the box */
+    background-color: #f0f0f0; /* Set the background color */
+    border: 1px solid #ccc; /* Add a border */
+    box-shadow: 3px 3px 5px #888888; /* Add a shadow for a 3D effect */
+    font-size: 30px;
+}
+
+#topButton {
+    position: absolute;
+    top: 250px; /* Adjust the top position as needed */
+    background-color: rgb(144, 127, 240);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}

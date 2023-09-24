@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesgabriel.css">
+        <title>Welcome Mr.G</title>
+        <style class="style">
+            div{
+
+                color: rgb(71, 47, 158);
+            }
+        </style>
+
+</head>
+<body>
+
+  <button id="topButton">Back</button>
+
+  <script>
+      // Get a reference to the button element
+      var topButton = document.getElementById("topButton");
+
+      // Add a click event listener to the button
+      topButton.addEventListener("click", function() {
+          // Navigate to the desired URL when the button is clicked
+          window.location.href = "/index.html"; // Replace with your desired URL
+      });
+  </script>
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>Text Reveal Animation</title>
+</head>
+
+
+	<div class="geeks">
+		<h1>Gabriel</h1>
+	</div>
+
+
+
+
+
+
+<div class="container">
+    <table>
+        <tr>
+            <td><a href="/people/gabrielfile/Q1">
+                <button >Q1</button>
+            </a></td>
+            <td><a href="/people/gabrielfile/Q2">
+                <button >Q2</button>
+            </a></td>
+            <td><a href="/people/gabrielfile/Q3">
+                <button >Q3</button>
+            </a></td>
+        </tr>
+
+        <tr>
+            <td><a href="/people/gabrielfile/Q4">
+                <button >Q4</button>
+            </a></td>
+            <td><a href="/people/gabrielfile/Q5">
+                <button >Q5</button>
+            </a></td>
+            <td><a href="/people/gabrielfile/Q6">
+                <button >Q6</button>
+            </a></td>
+        </tr>
+    </table>
+</div>
+
+
+
+</body>
+</html>

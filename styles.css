@@ -8,6 +8,11 @@
 }
 body{
     background: linear-gradient(to right, rgba(49, 3, 66, 0.774)0%,rgba(7, 4, 80, 0.922)100%,rgba(0, 0, 0, 0.585)50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 li,a,button,.table{
@@ -65,9 +70,9 @@ header{
 
 button{
     padding: 9px 25px;
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(144, 127, 240);
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
@@ -153,3 +158,37 @@ tfoot > tr  {
     background-color: rgba(120, 122, 238, 0.4);
     padding: 20px;
   }
+
+	
+	.geeks {
+		width: 18%;
+		top: 50%;
+		left: 40%;
+		border-bottom: 5px solid rgb(49, 49, 49);
+		overflow: hidden;
+		animation: animate 2s linear forwards;
+	}
+
+	.geeks h1 {
+		color: rgb(161, 161, 161);
+	}
+
+	@keyframes animate {
+		0% {
+			width: 0px;
+			height: 0px;
+		}
+		30% {
+			width: 50px;
+			height: 0px;
+		}
+		60% {
+			width: 50px;
+			height: 80px;
+		}
+	}
+
+    .container {
+        text-align: center;
+    }
+

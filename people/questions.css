@@ -244,6 +244,7 @@ animation:typing 4s steps(22,end) forwards,
 #topButton {
     position: absolute;
     top: 100px; /* Adjust the top position as needed */
+    left: 150px;
     background-color: rgb(144, 127, 240);
     color: #fff;
     border: none;
